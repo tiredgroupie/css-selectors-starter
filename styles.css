@@ -67,7 +67,7 @@
     add the universal CSS selector to the styles below
 */
 /* ----- */
-{
+*{
     font-family: var(--fonts);
     line-height: 1.3;
     color: var(--dk-gray);
@@ -80,7 +80,7 @@
     select the body by its tag name
 */
 /* ----- */
-{
+body{
     box-sizing: border-box;
     background-color: var(--lt-gray);
 }
@@ -94,7 +94,7 @@
     select the header and footer by tag name
 */
 /* ----- */
-{
+header, footer{
     padding: 2rem 1rem;
     background-color: var(--white);
     width: 100%;
@@ -111,7 +111,7 @@
     select the header only, by tag name
 */
 /* ----- */
-{
+header{
     margin: 0 auto 2rem auto;
 }
 
