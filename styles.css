@@ -692,7 +692,7 @@ input[type="submit"]{
     select the links in the software section using the ID, tag name, and child/descendant selector
 */
 /* ----- */
-#software a:hover{
+#software a{
     width: 100px;
     height: auto;
     margin: 0 auto;
@@ -718,17 +718,16 @@ input[type="submit"]{
     select the SVGs in the software section using the ID, tag name, and descendant selectors
 */
 /* ----- */
-#software a:hover svg{
+#software svg{
     stroke: var(--dk-gray);
 }
-
 /* ----- */
 /* 
     COMPLETED FOR YOU:
     this code changes the color of the SVG stroke when the user hovers over the link they are inside of in the software section
 */
 /* ----- */
-#software svg{
+#software a:hover svg{
     stroke: var(--dv-lime);
 }
 
@@ -775,7 +774,7 @@ caption{
     select the odd table rows in the table body of the table styles section using the element/tag name and the pseudo-class selectors
 */
 /* ----- */
-tbody tr:nth-of-type(){ 
+tbody tr:nth-of-type(odd){ 
     background-color: var(--dv-orange);
 }
 
@@ -880,7 +879,7 @@ tfoot{
     select the last div in the more styling section using the ID, tag name, descendant, and class selectors
 */
 /* ----- */
-#borders .dashed > div{
+#borders .dashed div div{
     width: 100px;
     height: 100px;
     border: 6px inset var(--dv-lt-blue);
